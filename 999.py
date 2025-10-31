@@ -339,13 +339,13 @@ elif page == "成绩预测":
         col1, col2 = st.columns([3, 1])
         with col1:
             if final_score >= 85:
-                st.image("https://ts1.tc.mm.bing.net/th/id/OIP-C.xDl4x5J14d4QePldl3ItXAHaDt?rs=1&pid=ImgDetMain&o=7&rm=3", caption="恭喜！你的成绩非常优秀！")
+                st.image("321.png", caption="恭喜！你的成绩非常优秀！")
                 st.success("学习建议：保持当前的学习状态，继续挑战更高难度的内容")
             elif final_score >= 60:
-                st.image("https://www.itingwa.com/file/img/2014-10/20141018080418-Nzc0Njk1_500x332.jpg", caption="不错的成绩，继续努力！")
+                st.image("4321.png", caption="不错的成绩，继续努力！")
                 st.info("学习建议：可以增加每周学习时间，提高作业完成质量")
             else:
-                st.image("https://p1.ssl.qhimg.com/dr/270_500_/t010dfc61bbf325a337.png?size=268x235", caption="需要更加努力哦！")
+                st.image("54321.png", caption="需要更加努力哦！")
                 st.warning("学习建议：建议增加学习时间，提高出勤率，及时完成作业")
   
 
